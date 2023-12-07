@@ -1,21 +1,14 @@
-.recipe002-chicken-lolly-container {
+.header-header {
   width: 100%;
   display: flex;
-  overflow: auto;
-  min-height: 100vh;
-  align-items: center;
-  flex-direction: column;
-}
-.recipe002-chicken-lolly-header {
-  width: 100%;
-  display: flex;
+  position: relative;
   align-items: center;
   padding-top: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   background-color: var(--dl-color-primary-orange);
 }
-.recipe002-chicken-lolly-navbar-interactive {
+.header-navbar-interactive {
   width: 90%;
   display: flex;
   position: sticky;
@@ -29,19 +22,19 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.recipe002-chicken-lolly-logo {
+.header-logo {
   font-size: 2em;
   font-family: "Lato";
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
 }
-.recipe002-chicken-lolly-desktop-menu {
+.header-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
-.recipe002-chicken-lolly-links {
+.header-links {
   flex: 1;
   display: flex;
   position: relative;
@@ -50,51 +43,623 @@
   flex-direction: row;
   justify-content: center;
 }
-.recipe002-chicken-lolly-nav4 {
+.header-nav4 {
   transition: 0.3s;
   padding-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.recipe002-chicken-lolly-nav4:hover {
+.header-nav4:hover {
   color: #3d6e70ff;
 }
-.recipe002-chicken-lolly-nav41 {
+.header-nav41 {
   transition: 0.3s;
   padding-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.recipe002-chicken-lolly-nav41:hover {
+.header-nav41:hover {
   color: #3d6e70ff;
 }
-.recipe002-chicken-lolly-nav42 {
+.header-nav42 {
   transition: 0.3s;
   padding-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.recipe002-chicken-lolly-nav42:hover {
+.header-nav42:hover {
   color: #3d6e70ff;
 }
-.recipe002-chicken-lolly-nav43 {
+.header-nav43 {
   transition: 0.3s;
   padding-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.recipe002-chicken-lolly-nav43:hover {
+.header-nav43:hover {
   color: #3d6e70ff;
 }
-.recipe002-chicken-lolly-buttons {
+.header-buttons {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
+.header-burger-menu {
+  display: none;
+}
+.header-icon {
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.header-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 283px;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  border-radius: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.header-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.header-logo1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.header-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-icon2 {
+  fill: var(--dl-color-gray-900);
+  width: var(--dl-size-size-xsmall);
+  cursor: pointer;
+  height: var(--dl-size-size-xsmall);
+}
+.header-links1 {
+  height: 184px;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.header-nav1 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.header-nav2 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.header-nav3 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.header-nav44 {
+  color: var(--dl-color-gray-black);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.header-buttons1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .header-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .header-desktop-menu {
+    display: none;
+  }
+  .header-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-mobile-menu {
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .header-nav1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-nav2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-nav3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .header-nav44 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .header-navbar-interactive {
+    width: 90%;
+    padding: var(--dl-space-space-unit);
+  }
+  .header-logo {
+    font-size: 1.5em;
+  }
+  .header-mobile-menu {
+    padding: 16px;
+  }
+  .header-logo1 {
+    font-size: 1.5em;
+  }
+  .header-icon2 {
+    fill: var(--dl-color-gray-900);
+  }
+  .header-nav1 {
+    color: var(--dl-color-gray-black);
+  }
+  .header-nav2 {
+    color: var(--dl-color-gray-black);
+  }
+  .header-nav3 {
+    color: var(--dl-color-gray-black);
+  }
+  .header-nav44 {
+    color: var(--dl-color-gray-black);
+  }
+}
+
+.gallery-card21-gallery-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card21-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000096;
+}
+.gallery-card21-container:hover {
+  opacity: 1;
+}
+.gallery-card21-container1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card21-text {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.gallery-card21-text1 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.gallery-card21-text2 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.gallery-card21-image {
+  top: 0px;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.gallery-card21-root-class-name {
+  flex: 1;
+}
+
+
+@media(max-width: 767px) {
+  .gallery-card21-gallery-card {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .gallery-card21-container {
+    max-width: auto;
+  }
+  .gallery-card21-image {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+  }
+}
+
+.navigation-links1-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links1-navlink {
+  text-decoration: none;
+}
+.navigation-links1-navlink1 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links1-navlink2 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.navigation-links1-text {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links1-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links1-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-navlink2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links1-text {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.recipe002-chicken-lolly-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.recipe002-chicken-lolly-gallery {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.recipe002-chicken-lolly-container1 {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.recipe002-chicken-lolly-container2 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.recipe002-chicken-lolly-container3 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.recipe002-chicken-lolly-container4 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  position: relative;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.recipe002-chicken-lolly-text {
+  align-self: center;
+}
+.recipe002-chicken-lolly-text01 {
+  font-size: 1.3em;
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+}
+.recipe002-chicken-lolly-ul {
+  top: 101px;
+  left: 8px;
+  position: absolute;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.recipe002-chicken-lolly-li {
+  font-size: 18px;
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text02 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li01 {
+  font-size: 18px;
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text03 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li02 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text04 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li03 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text05 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li04 {
+  font-size: 18px;
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text06 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li05 {
+  font-size: 18px;
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text07 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li06 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text08 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li07 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text09 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li08 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text10 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li09 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text11 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-li10 {
+  list-style-type: disc;
+  list-style-image: none;
+  list-style-position: outside;
+}
+.recipe002-chicken-lolly-text12 {
+  font-size: 20px;
+}
+.recipe002-chicken-lolly-container5 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.recipe002-chicken-lolly-container6 {
+  flex: 2;
+  width: 50%;
+  height: 813px;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.recipe002-chicken-lolly-text13 {
+  font-size: 1.5em;
+  align-self: flex-start;
+}
+.recipe002-chicken-lolly-text14 {
+  padding-top: var(--dl-space-space-twounits);
+}
+.recipe002-chicken-lolly-text15 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text16 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text18 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text19 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text20 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text21 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text23 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text24 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text25 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text26 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text28 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text29 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text30 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-text31 {
+  font-weight: 700;
+}
+.recipe002-chicken-lolly-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: var(--dl-color-primary-orange);
+}
+.recipe002-chicken-lolly-nav {
+  display: flex;
+}
+.recipe002-chicken-lolly-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.recipe002-chicken-lolly-register {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
 .recipe002-chicken-lolly-burger-menu {
   display: none;
 }
 .recipe002-chicken-lolly-icon {
   width: var(--dl-size-size-xsmall);
-  cursor: pointer;
   height: var(--dl-size-size-xsmall);
 }
 .recipe002-chicken-lolly-mobile-menu {
@@ -106,93 +671,33 @@
   padding: 32px;
   z-index: 100;
   position: absolute;
-  border-radius: 50px;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--dl-color-gray-white);
+  background-color: #fff;
 }
-.recipe002-chicken-lolly-nav {
+.recipe002-chicken-lolly-nav1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.recipe002-chicken-lolly-top {
+.recipe002-chicken-lolly-container7 {
   width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.recipe002-chicken-lolly-logo1 {
-  font-size: 2em;
-  font-weight: bold;
+.recipe002-chicken-lolly-image {
+  height: 2rem;
 }
-.recipe002-chicken-lolly-close-menu {
+.recipe002-chicken-lolly-menu-close {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .recipe002-chicken-lolly-icon02 {
-  fill: var(--dl-color-gray-900);
   width: var(--dl-size-size-xsmall);
-  cursor: pointer;
   height: var(--dl-size-size-xsmall);
-}
-.recipe002-chicken-lolly-links1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.recipe002-chicken-lolly-nav1 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.recipe002-chicken-lolly-nav2 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.recipe002-chicken-lolly-nav3 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.recipe002-chicken-lolly-nav44 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.recipe002-chicken-lolly-nav5 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.recipe002-chicken-lolly-buttons1 {
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.recipe002-chicken-lolly-login {
-  border-color: var(--dl-color-primary1-blue100);
-  border-width: 1px;
-  margin-right: var(--dl-space-space-twounits);
-  padding-left: 1.5rem;
-  border-radius: 30px;
-  padding-right: 1.5rem;
-}
-.recipe002-chicken-lolly-register {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  border-color: var(--dl-color-primary1-blue100);
-  border-width: 1px;
-  padding-left: 1.5rem;
-  border-radius: 30px;
-  padding-right: 1.5rem;
-  background-color: var(--dl-color-primary1-blue100);
-}
-.recipe002-chicken-lolly-register:hover {
-  border-color: #849492ff;
-  background-color: #849492ff;
 }
 .recipe002-chicken-lolly-icon04 {
   width: var(--dl-size-size-xsmall);
@@ -208,12 +713,45 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+@media(max-width: 1200px) {
+  .recipe002-chicken-lolly-ul {
+    margin-top: 67px;
+  }
+  .recipe002-chicken-lolly-text14 {
+    font-size: 15px;
+  }
+}
+@media(max-width: 991px) {
+  .recipe002-chicken-lolly-ul {
+    height: 328px;
+    margin-top: var(--dl-space-space-fiveunits);
+    margin-bottom: 5px;
+  }
+  .recipe002-chicken-lolly-container6 {
+    width: 100%;
+  }
+  .recipe002-chicken-lolly-text33 {
+    font-size: 8px;
+  }
+}
 @media(max-width: 767px) {
-  .recipe002-chicken-lolly-navbar-interactive {
+  .recipe002-chicken-lolly-gallery {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .recipe002-chicken-lolly-desktop-menu {
+  .recipe002-chicken-lolly-container2 {
+    height: 260px;
+    margin-top: 0px;
+    flex-direction: column;
+  }
+  .recipe002-chicken-lolly-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .recipe002-chicken-lolly-nav {
+    display: none;
+  }
+  .recipe002-chicken-lolly-btn-group {
     display: none;
   }
   .recipe002-chicken-lolly-burger-menu {
@@ -221,47 +759,20 @@
     align-items: center;
     justify-content: center;
   }
-  .recipe002-chicken-lolly-mobile-menu {
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .recipe002-chicken-lolly-nav1 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .recipe002-chicken-lolly-nav2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .recipe002-chicken-lolly-nav3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .recipe002-chicken-lolly-nav44 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .recipe002-chicken-lolly-nav5 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
 }
 @media(max-width: 479px) {
-  .recipe002-chicken-lolly-navbar-interactive {
-    width: 90%;
+  .recipe002-chicken-lolly-gallery {
+    height: 1101px;
     padding: var(--dl-space-space-unit);
+    flex-direction: column;
   }
-  .recipe002-chicken-lolly-logo {
-    font-size: 1.5em;
+  .recipe002-chicken-lolly-container1 {
+    width: auto;
+  }
+  .recipe002-chicken-lolly-header {
+    padding: var(--dl-space-space-unit);
   }
   .recipe002-chicken-lolly-mobile-menu {
     padding: 16px;
-  }
-  .recipe002-chicken-lolly-logo1 {
-    font-size: 1.5em;
-  }
-  .recipe002-chicken-lolly-icon02 {
-    fill: var(--dl-color-gray-900);
   }
 }
