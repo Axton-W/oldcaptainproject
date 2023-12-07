@@ -75,6 +75,11 @@
 }
 
 
+.gallery-card2-root-class-name10 {
+  flex: 1;
+}
+
+
 @media(max-width: 767px) {
   .gallery-card2-gallery-card {
     flex-direction: column;
@@ -109,10 +114,12 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.navigation-links1-navlink3 {
+.navigation-links1-text {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+
+
 
 
 
@@ -153,7 +160,7 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-navlink3 {
+  .navigation-links1-text {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
