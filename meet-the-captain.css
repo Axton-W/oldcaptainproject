@@ -217,65 +217,30 @@
 .meet-the-captain-nav1 {
   color: var(--dl-color-gray-black);
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .meet-the-captain-nav2 {
   color: var(--dl-color-gray-black);
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .meet-the-captain-nav3 {
   color: var(--dl-color-gray-black);
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .meet-the-captain-nav44 {
   color: var(--dl-color-gray-black);
   margin-bottom: var(--dl-space-space-unit);
-}
-.meet-the-captain-nav5 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .meet-the-captain-buttons1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-}
-.meet-the-captain-login {
-  border-color: var(--dl-color-primary1-blue100);
-  border-width: 1px;
-  margin-right: var(--dl-space-space-twounits);
-  padding-left: 1.5rem;
-  border-radius: 30px;
-  padding-right: 1.5rem;
-}
-.meet-the-captain-register {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  border-color: var(--dl-color-primary1-blue100);
-  border-width: 1px;
-  padding-left: 1.5rem;
-  border-radius: 30px;
-  padding-right: 1.5rem;
-  background-color: var(--dl-color-primary1-blue100);
-}
-.meet-the-captain-register:hover {
-  border-color: #849492ff;
-  background-color: #849492ff;
-}
-.meet-the-captain-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.meet-the-captain-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.meet-the-captain-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
 }
 .meet-the-captain-testimonial {
   width: 100%;
@@ -363,7 +328,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.meet-the-captain-register1 {
+.meet-the-captain-register {
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: rgb(0, 0, 0);
@@ -371,7 +336,7 @@
 .meet-the-captain-burger-menu1 {
   display: none;
 }
-.meet-the-captain-icon10 {
+.meet-the-captain-icon04 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -408,21 +373,21 @@
   align-items: center;
   justify-content: center;
 }
+.meet-the-captain-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.meet-the-captain-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.meet-the-captain-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
 .meet-the-captain-icon12 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.meet-the-captain-icon14 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.meet-the-captain-icon16 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.meet-the-captain-icon18 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -454,6 +419,7 @@
     justify-content: center;
   }
   .meet-the-captain-mobile-menu {
+    height: 320px;
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -471,10 +437,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .meet-the-captain-nav44 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .meet-the-captain-nav5 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -504,6 +466,7 @@
     font-size: 1.5em;
   }
   .meet-the-captain-mobile-menu {
+    height: 281px;
     padding: 16px;
   }
   .meet-the-captain-logo1 {
@@ -511,6 +474,18 @@
   }
   .meet-the-captain-icon02 {
     fill: var(--dl-color-gray-900);
+  }
+  .meet-the-captain-nav1 {
+    color: var(--dl-color-gray-black);
+  }
+  .meet-the-captain-nav2 {
+    color: var(--dl-color-gray-black);
+  }
+  .meet-the-captain-nav3 {
+    color: var(--dl-color-gray-black);
+  }
+  .meet-the-captain-nav44 {
+    color: var(--dl-color-gray-black);
   }
   .meet-the-captain-testimonial {
     height: 1072px;
