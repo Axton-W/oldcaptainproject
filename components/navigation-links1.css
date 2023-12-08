@@ -15,7 +15,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.navigation-links1-text {
+.navigation-links1-navlink3 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -69,7 +69,7 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-text {
+  .navigation-links1-navlink3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }

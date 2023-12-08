@@ -104,6 +104,8 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
+
+
 .header-nav {
   display: flex;
   align-items: flex-start;
@@ -219,12 +221,24 @@
   }
   .header-mobile-menu {
     padding: 16px;
+    padding-bottom: 142px;
+  }
+  .header-nav {
+    position: relative;
   }
   .header-logo1 {
     font-size: 1.5em;
   }
   .header-icon2 {
     fill: var(--dl-color-gray-900);
+  }
+  .header-links1 {
+    width: 315px;
+    height: 105px;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   .header-nav1 {
     color: var(--dl-color-gray-black);
@@ -340,7 +354,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.navigation-links1-text {
+.navigation-links1-navlink3 {
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
@@ -394,7 +408,7 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .navigation-links1-text {
+  .navigation-links1-navlink3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -730,6 +744,9 @@
   .recipe002-chicken-lolly-container6 {
     width: 100%;
   }
+  .recipe002-chicken-lolly-text14 {
+    font-size: 13px;
+  }
   .recipe002-chicken-lolly-text33 {
     font-size: 8px;
   }
@@ -740,8 +757,6 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .recipe002-chicken-lolly-container2 {
-    height: 260px;
-    margin-top: 0px;
     flex-direction: column;
   }
   .recipe002-chicken-lolly-header {
@@ -762,12 +777,27 @@
 }
 @media(max-width: 479px) {
   .recipe002-chicken-lolly-gallery {
-    height: 1101px;
+    height: 2104px;
     padding: var(--dl-space-space-unit);
     flex-direction: column;
+    padding-bottom: 54px;
   }
   .recipe002-chicken-lolly-container1 {
     width: auto;
+  }
+  .recipe002-chicken-lolly-container4 {
+    height: 193px;
+    padding-bottom: 20px;
+  }
+  .recipe002-chicken-lolly-ul {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .recipe002-chicken-lolly-container5 {
+    height: 594px;
+    padding-top: 225px;
+  }
+  .recipe002-chicken-lolly-text14 {
+    font-size: 15px;
   }
   .recipe002-chicken-lolly-header {
     padding: var(--dl-space-space-unit);
